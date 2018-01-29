@@ -1,0 +1,6 @@
+//SUPPRESSIONPROJ:diplom
+//VERSION:5.00
+//ENABLE:Yes
+!include MFC.SUP
+!include RTL.SUP
+

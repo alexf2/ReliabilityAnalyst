@@ -1,0 +1,81 @@
+;F101.00 Project file
+[OPTIONS]
+BUILD = BuildAll
+COMPRESS = False
+CONTENTS = IDH_Contents
+COPYRIGHT = Copyright © by AlexCorp. 1998
+ICON = f:\work\diplom\res\diplom.ico
+OLDKEYPHRASE = False
+OPTCDROM = Yes
+REPORT = No
+TITLE = Анализатор надёжностных схем
+WARNING = 1
+ 
+[FILES]
+f:\work\diplom\hlp\diplom.rtf
+ 
+[CONFIG]
+RegisterRoutine("MMSYSTEM","sndPlaySound","Si")
+RegisterRoutine("MMSYSTEM","mciExecute","S")
+BrowseButtons()
+ 
+[BUILDTAGS]
+BuildAll
+ 
+[ALIAS]
+ 
+[BAGGAGE]
+
+ 
+[BITMAPS]
+
+f:\work\diplom\res\btm_app.bmp
+e:\win95\temp\~open.bmp
+e:\win95\temp\~closed.bmp
+e:\win95\temp\~leaf.bmp
+f:\work\diplom\doc\s1.wmf
+f:\work\diplom\doc\hint.wmf
+e:\win95\temp\~tmpbit.bmp
+f:\work\diplom\doc\schema.wmf
+f:\work\diplom\doc\adges.wmf
+f:\work\diplom\doc\s_hot.wmf
+e:\win95\temp\vhbar__.bmp
+e:\win95\temp\vhbar_@.bmp
+e:\win95\temp\vhbar_a.bmp
+e:\win95\temp\vhbar_b.bmp
+e:\win95\temp\vhbar_c.bmp
+e:\win95\temp\vhbar_d.bmp
+e:\win95\temp\vhbar_e.bmp
+e:\win95\temp\vhbar_f.bmp
+e:\win95\temp\vhbar_g.bmp
+e:\win95\temp\vhbar_h.bmp
+e:\win95\temp\vhbar_i.bmp
+e:\win95\temp\vhbar_j.bmp
+e:\win95\temp\vhbar_k.bmp
+e:\win95\temp\vhbar_l.bmp
+e:\win95\temp\vhbar_m.bmp
+e:\win95\temp\vhbar_n.bmp
+e:\win95\temp\vhbar_o.bmp
+e:\win95\temp\vhbar_p.bmp
+e:\win95\temp\vhbar_q.bmp
+e:\win95\temp\vhbar_r.bmp
+e:\win95\temp\vhbar_s.bmp
+e:\win95\temp\vhbar_t.bmp
+e:\win95\temp\vhbar_u.bmp
+e:\win95\temp\vhbar_v.bmp
+e:\win95\temp\vhbar_w.bmp
+e:\win95\temp\vhbar_x.bmp
+e:\win95\temp\vhbar_y.bmp
+e:\win95\temp\vhbar_z.bmp
+ 
+[MAP]
+#include <diplom.hh>
+ 
+[WINDOWS]
+MAIN = "Анализатор надёжностных схем", , , , (192,192,192), 0
+Window1 = "", ( 64, 64, 832, 832), , , (192,192,192), 0
+Window2 = "", ( 0, 0, 1023, 511), , , (192,192,192), 0
+Window3 = "", ( 0, 511, 1023, 511), , , (192,192,192), 0
+Window4 = "Glossary", ( 0, 0, 511, 1023), , , (192,192,192), 0
+Window5 = "Index", ( 511, 0, 511, 1023), , , (192,192,192), 0
+ 

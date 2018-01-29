@@ -1,0 +1,61 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "bwcc_"=..\Rudakow\servis\bwcc_.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "diplom"=.\diplom.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name mydib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name bwcc_
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "mydib"=..\Rudakow\servis\Mydib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+    {476024A3-BE62-11D0-833F-444553540000}
+    {0C73A147-0852-11D1-BC39-004095912184}
+}}}
+
+###############################################################################
+

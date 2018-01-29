@@ -1,0 +1,963 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\diplom.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENUEX PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "Файл/&F",                        65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Создать новую схему\tCtrl+N", 57600,MFT_STRING,MFS_ENABLED
+        MENUITEM "Открыть существующую схему\tF3", 57601,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Настройка печати",            57606,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Последние использованные схемы", 57616,MFT_STRING,
+        MFS_GRAYED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Выход\tAlt+X",                57665,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Вид/&V",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Строка статуса",              59393,MFT_STRING,MFS_CHECKED
+        MENUITEM "Панель быстрого доступа",     59392,MFT_STRING,MFS_CHECKED
+        MENUITEM "Панель инструментов выравнивания", 32774,MFT_STRING,
+        MFS_CHECKED
+        MENUITEM "Локальная панель быстрого доступа", 32805,MFT_STRING,
+        MFS_CHECKED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Сохранять настройки при выходе", 32807,MFT_STRING,
+        MFS_CHECKED
+        MENUITEM "Сохранять рабочий стол при выходе", 32809,MFT_STRING,
+        MFS_CHECKED
+    END
+    POPUP "Справка/&H",                     65535,
+    MFT_STRING | MFT_RIGHTORDER | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    BEGIN
+        MENUITEM "Темы справки",                57671,MFT_STRING,MFS_ENABLED
+        MENUITEM "Режим помощи\tShift+F1",      57669,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Реквизиты",                   32771,MFT_STRING,MFS_ENABLED
+    END
+END
+
+IDR_DIPLOMTYPE MENUEX PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "Файл/&F",                        65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Создать новую схему\tCtrl+N", 57600,MFT_STRING,MFS_ENABLED
+        MENUITEM "Открыть существующую схему\tF3", 57601,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "Закрыть активную схему\tAlt+F3", 57602,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "Сохранить\tF2",               57603,MFT_STRING,MFS_ENABLED
+        MENUITEM "Сохранить под другим именем", 57604,MFT_STRING,MFS_ENABLED
+        MENUITEM "Восстановить схему",          32828,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Экспорт схемы",               32849,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Печать",                      57607,MFT_STRING,MFS_ENABLED
+        MENUITEM "Предварительный просмотр",    57609,MFT_STRING,MFS_ENABLED
+        MENUITEM "Настройка печати",            57606,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Последние схемы",             57616,MFT_STRING,MFS_GRAYED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Выход\tAtl+X",                57665,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Редактирование/&E",              65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Отменить\tAlt+Backspace",     57643,MFT_STRING,MFS_ENABLED
+        MENUITEM "Повторить\tCtrl+BackSpace",   57644,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Дублировать",                 32776,MFT_STRING,MFS_ENABLED
+        MENUITEM "Удалить",                     57632,MFT_STRING,MFS_ENABLED
+        MENUITEM "Удалить всё",                 57633,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Копировать\tCtrl+Ins",        57634,MFT_STRING,MFS_ENABLED
+        MENUITEM "Вырезать",                    57635,MFT_STRING,MFS_ENABLED
+        MENUITEM "Вставить\tShift+Ins",         57637,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        POPUP "Выделить",                       65535,MFT_STRING,MFS_ENABLED
+        BEGIN
+            MENUITEM "Всё",                         57642,MFT_STRING,
+            MFS_ENABLED
+            MENUITEM "Минимальный двухполюсник",    32829,MFT_STRING,
+            MFS_ENABLED
+            MENUITEM "Максимальный двухполюсник",   32848,MFT_STRING,
+            MFS_ENABLED
+            MENUITEM "Подсветку",                   32834,MFT_STRING,
+            MFS_ENABLED
+            MENUITEM "Требуемую подсхему...",       32845,MFT_STRING,
+            MFS_ENABLED
+        END
+        POPUP "Выделить устройства",            65535,MFT_STRING,MFS_ENABLED
+        BEGIN
+            MENUITEM "Устройства схемы",            32822,MFT_STRING,
+            MFS_ENABLED
+            MENUITEM "Устройства двухполюсника",    32840,MFT_STRING,
+            MFS_ENABLED
+            MENUITEM "Устройства подсветки",        32841,MFT_STRING,
+            MFS_ENABLED
+        END
+        POPUP "Выделить связи",                 65535,MFT_STRING,MFS_ENABLED
+        BEGIN
+            MENUITEM "Связи схемы",                 32823,MFT_STRING,
+            MFS_ENABLED
+            MENUITEM "Связи двухполюсника",         32843,MFT_STRING,
+            MFS_ENABLED
+            MENUITEM "Связи подсветки",             32844,MFT_STRING,
+            MFS_ENABLED
+        END
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Снять выделение",             32777,MFT_STRING,MFS_ENABLED
+        MENUITEM "Инверсия выделения",          32778,MFT_STRING,MFS_ENABLED
+        MENUITEM "Снять подсветку\tCtrl+U",     32831,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Масштабировать...",           32826,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Вид/&V",                         65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Предидущий масштаб",          32779,MFT_STRING,MFS_ENABLED
+        MENUITEM "100%",                        32780,MFT_STRING,MFS_ENABLED
+        MENUITEM "Ширина листа",                32781,MFT_STRING,MFS_ENABLED
+        MENUITEM "Вся страница",                32782,MFT_STRING,MFS_ENABLED
+        MENUITEM "200%",                        32783,MFT_STRING,MFS_ENABLED
+        MENUITEM "50%",                         32784,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Строка статуса",              59393,MFT_STRING,MFS_CHECKED
+        MENUITEM "Панель быстрого доступа",     59392,MFT_STRING,MFS_CHECKED
+        MENUITEM "Локальная панель быстрого доступа", 32805,MFT_STRING,
+        MFS_CHECKED
+        MENUITEM "Текстура локальной панели",   32806,MFT_STRING,MFS_CHECKED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Сокращённый просмотр",        32810,MFT_STRING,MFS_ENABLED
+        MENUITEM "Направление связей",          32811,MFT_STRING,MFS_CHECKED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Сохранять настройки при выходе", 32807,MFT_STRING,
+        MFS_CHECKED
+        MENUITEM "Сохранять рабочий стол при выходе", 32809,MFT_STRING,
+        MFS_CHECKED
+    END
+    POPUP "Схема/&S",                       65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Бригады",                     32791,MFT_STRING,MFS_CHECKED
+        MENUITEM "Элементы",                    32793,MFT_STRING,MFS_CHECKED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Расчёт",                      32837,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Шаг по сетке",                32795,MFT_STRING,MFS_CHECKED
+        MENUITEM "Шаг по направляющим",         32796,MFT_STRING,MFS_CHECKED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Линейки",                     32785,MFT_STRING,MFS_CHECKED
+        MENUITEM "Сетка",                       32787,MFT_STRING,MFS_CHECKED
+        MENUITEM "Направляющие",                32788,MFT_STRING,MFS_CHECKED
+        MENUITEM "Точки соединения",            32789,MFT_STRING,MFS_CHECKED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Выравнивание...",             32812,MFT_STRING,MFS_ENABLED
+        MENUITEM "Выравнять по направляющим",   32827,MFT_STRING,MFS_ENABLED
+        MENUITEM "Центрировать схему",          32813,MFT_STRING,MFS_ENABLED
+        MENUITEM "Поместить назад",             32814,MFT_STRING,MFS_ENABLED
+        MENUITEM "Поместить врерёд",            32815,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Дублировать ранги",           32824,MFT_STRING,MFS_ENABLED
+        MENUITEM "Разметить ранги",             32825,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Окна/&W",                        65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Каскад\tCtrl+C",              57650,MFT_STRING,MFS_ENABLED
+        MENUITEM "Мозаика горизонтальная\tCtrl+K", 57651,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "Мозаика вертикальная\tCtrl+V", 57652,MFT_STRING,
+        MFS_ENABLED
+        MENUITEM "Упорядочить иконки\tCtrl+R",  57649,MFT_STRING,MFS_ENABLED
+        MENUITEM "Закрыть всё",                 32798,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Следующее окно\tF6",          32801,MFT_STRING,MFS_ENABLED
+        MENUITEM "Предидущее окно\tCtrl+F6",    32803,MFT_STRING,MFS_ENABLED
+        MENUITEM "Список окон",                 32804,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Справка/&H",                     65535,
+    MFT_STRING | MFT_RIGHTORDER | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    BEGIN
+        MENUITEM "Темы справки",                57671,MFT_STRING,MFS_ENABLED
+        MENUITEM "Режим помощи\tShift+F1",      57669,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Реквизиты",                   32771,MFT_STRING,MFS_ENABLED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "B",            ID_MODE_BRIG,           VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_WINDOW_CASCADE,      VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_EDIT_DUP,            VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_EDIT_CLEAR,          VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_CONTEXT_HELP,        VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_WINDOW_TILE_HORZ,    VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_WINDOW_ARRANGE,      VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "U",            ID_ED_UNHILITE,         VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_WINDOW_TILE_VERT,    VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_ESCAPE,      ICM_ED_STOP,            VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F10,         ICM_ED_SINGLESTEP,      VIRTKEY, NOINVERT
+    VK_F2,          ID_FILE_SAVE,           VIRTKEY, NOINVERT
+    VK_F3,          ID_FILE_OPEN,           VIRTKEY, NOINVERT
+    VK_F3,          ID_FILE_CLOSE,          VIRTKEY, ALT, NOINVERT
+    VK_F5,          ICM_ED_STEPMODE,        VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PRIV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_APP_EXIT,            VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "diplom MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "diplom\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "OriginalFilename", "diplom.EXE\0"
+            VALUE "ProductName", "Aiaeecaoi? iaa??iinoiuo noai\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\diplom.ico"
+IDR_DIPLOMTYPE          ICON    DISCARDABLE     "res\\diplomDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BITMAP256
+//
+
+IDB_DIB_ABOUT256        BITMAP256 DISCARDABLE   "res\\About256.img"
+IDB_DIB_BKGNDH          BITMAP256 DISCARDABLE   "res\\Bkgnd_h.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_NEW                 BITMAP  DISCARDABLE     "res\\New.bmp"
+IDB_OPEN                BITMAP  DISCARDABLE     "res\\Open.bmp"
+IDB_SAVE                BITMAP  DISCARDABLE     "res\\Save.bmp"
+IDB_HELP                BITMAP  DISCARDABLE     "res\\Help.bmp"
+IDB_DUP                 BITMAP  DISCARDABLE     "res\\copy.bmp"
+IDB_REDO                BITMAP  DISCARDABLE     "res\\br.bmp"
+IDB_UNDO                BITMAP  DISCARDABLE     "res\\bu.bmp"
+IDB_PROP                BITMAP  DISCARDABLE     "res\\prop.bmp"
+IDB_CLEAR               BITMAP  DISCARDABLE     "res\\clear.bmp"
+IDB_BMP_ED_FONT         BITMAP  DISCARDABLE     "res\\efont.bmp"
+IDB_BMP_ED_FNTCLR       BITMAP  DISCARDABLE     "res\\bmp_ed_f.bmp"
+IDB_BMP_ED_FNTUP        BITMAP  DISCARDABLE     "res\\efup.bmp"
+IDB_BMP_ED_FNTDOWN      BITMAP  DISCARDABLE     "res\\efdown.bmp"
+IDB_BMP_ED_LIN          BITMAP  DISCARDABLE     "res\\bmp_ed_l.bmp"
+IDB_BMP_ED_LINCLR       BITMAP  DISCARDABLE     "res\\eclr.bmp"
+IDB_BMP_ED_LINTHICK     BITMAP  DISCARDABLE     "res\\elthck.bmp"
+IDB_BMP_ED_LINTYP       BITMAP  DISCARDABLE     "res\\elt.bmp"
+IDB_BMP_ED_FIL          BITMAP  DISCARDABLE     "res\\efil.bmp"
+IDB_BMP_ED_FILCLR       BITMAP  DISCARDABLE     "res\\efclr.bmp"
+IDB_BMP_ED_FILTYP       BITMAP  DISCARDABLE     "res\\eftyp.bmp"
+IDB_BMP_ED_CALC         BITMAP  DISCARDABLE     "res\\ecalc.bmp"
+IDB_BMP_ED_ALIGN        BITMAP  DISCARDABLE     "res\\bmp_ed_a.bmp"
+IDB_SNSL_1              BITMAP  DISCARDABLE     "res\\snsl_1.bmp"
+IDB_SNSL_2              BITMAP  DISCARDABLE     "res\\snsl_2.bmp"
+IDB_SNSL_3              BITMAP  DISCARDABLE     "res\\snsl_3.bmp"
+IDB_SNSL_4              BITMAP  DISCARDABLE     "res\\snsl_4.bmp"
+IDB_SNSL_PC             BITMAP  DISCARDABLE     "res\\snsl_pc.bmp"
+IDB_SNSL_CNCT           BITMAP  DISCARDABLE     "res\\snsl_cnc.bmp"
+IDB_SNSL_TXT            BITMAP  DISCARDABLE     "res\\snsl_txt.bmp"
+IDB_SMALLICONS          BITMAP  DISCARDABLE     "res\\Smallico.bmp"
+IDB_LARGEICONS          BITMAP  DISCARDABLE     "res\\Largeico.bmp"
+IDB_STATEICONS          BITMAP  DISCARDABLE     "res\\Stateico.bmp"
+IDB_LOC_REM             BITMAP  DISCARDABLE     "res\\Btn_remo.bmp"
+IDB_LOC_ED              BITMAP  DISCARDABLE     "res\\Update.bmp"
+IDB_LOC_ADD             BITMAP  DISCARDABLE     "res\\Add.bmp"
+IDB_HCH                 BITMAP  DISCARDABLE     "res\\hch.bmp"
+IDB_BMP_A1_H            BITMAP  DISCARDABLE     "res\\bmp_a1.bmp"
+IDB_BMP_A2_H            BITMAP  DISCARDABLE     "res\\bmp_a2.bmp"
+IDB_BMP_A3_H            BITMAP  DISCARDABLE     "res\\bmp_a3.bmp"
+IDB_BMP_A1_V            BITMAP  DISCARDABLE     "res\\bmp_d1.bmp"
+IDB_BMP_A2_V            BITMAP  DISCARDABLE     "res\\bmp_d2.bmp"
+IDB_BMP_A3_V            BITMAP  DISCARDABLE     "res\\bmp_d3.bmp"
+IDB_BMP_A4_H            BITMAP  DISCARDABLE     "res\\bmp_a4_h.bmp"
+IDB_BMP_D1_H            BITMAP  DISCARDABLE     "res\\bmp_d1_h.bmp"
+IDB_BMP_D2_H            BITMAP  DISCARDABLE     "res\\bmp_d2_h.bmp"
+IDB_BMP_D3_H            BITMAP  DISCARDABLE     "res\\bmp_d3_h.bmp"
+IDB_BMP_D1_V            BITMAP  DISCARDABLE     "res\\bmp_d1_v.bmp"
+IDB_BMP_D2_V            BITMAP  DISCARDABLE     "res\\bmp_d2_v.bmp"
+IDB_BMP_D3_V            BITMAP  DISCARDABLE     "res\\bmp_d3_v.bmp"
+IDB_LOC_ACCEPT          BITMAP  DISCARDABLE     "res\\loc_acce.bmp"
+IDB_BMP_STOP            BITMAP  DISCARDABLE     "res\\bm_st_.bmp"
+IDB_BMP_ED_STEP         BITMAP  DISCARDABLE     "res\\Wstep.bmp"
+IDB_BMP_ED_STEPMODE     BITMAP  DISCARDABLE     "res\\Wsm.bmp"
+IDB_BITMAP_APP          BITMAP  DISCARDABLE     "res\\btm_app.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_ALN DIALOGEX 0, 0, 235, 214
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_DLGMODALFRAME | WS_EX_CONTEXTHELP
+CAPTION "Разместить"
+CLASS "BorDlg_Gray"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Выравнять",IDC_RAD_A,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,6,4,56,12
+    CONTROL         "Распределить",IDC_RAD_D,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,6,109,64,12
+    CONTROL         "",IDC_BORSHADE3,"BorShade",WS_GROUP | 0x8006,3,3,167,
+                    103
+    GROUPBOX        "По вертикали",IDC_GROUPBOX1,11,16,152,42,WS_GROUP
+    CONTROL         "RadioButton6",IDC_BTN_A1_H,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_GROUP | WS_TABSTOP,20,28,28,
+                    24
+    CONTROL         "RadioButton7",IDC_BTN_A2_H,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,56,28,28,24
+    CONTROL         "RadioButton5",IDC_BTN_A3_H,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,92,28,28,24
+    CONTROL         "RadioButton4",IDC_BTN_A4_H,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,128,28,28,24
+    GROUPBOX        "По горизонтали",IDC_GROUPBOX2,11,60,152,42,WS_GROUP
+    CONTROL         "RadioButton13",IDC_BTN_A1_V,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_GROUP | WS_TABSTOP,20,72,28,
+                    24
+    CONTROL         "RadioButton14",IDC_BTN_A2_V,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,56,72,28,24
+    CONTROL         "RadioButton15",IDC_BTN_A3_V,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,92,72,28,24
+    CONTROL         "RadioButton16",IDC_BTN_A4_V,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,128,72,28,24
+    GROUPBOX        "По вертикали",IDC_GROUPBOX3,11,121,152,42,WS_GROUP
+    CONTROL         "RadioButton47",IDC_BTN_D1_H,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_GROUP | WS_TABSTOP,20,133,
+                    28,24
+    CONTROL         "RadioButton48",IDC_BTN_D2_H,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,56,133,28,24
+    CONTROL         "RadioButton46",IDC_BTN_D3_H,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,92,133,28,24
+    CONTROL         "RadioButton49",IDC_BTN_D1_V,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,20,177,28,24
+    CONTROL         "RadioButton50",IDC_BTN_D2_V,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,56,177,28,24
+    CONTROL         "RadioButton51",IDC_BTN_D3_V,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,92,177,28,24
+    CONTROL         "",IDC_BORSHADE4,"BorShade",WS_GROUP | 0x8006,3,108,167,
+                    103
+    CONTROL         "Button7",IDOK,"BorBtn",WS_TABSTOP | 0x1,181,52,43,25
+    CONTROL         "Button8",IDCANCEL,"BorBtn",WS_TABSTOP,181,137,43,25
+    CONTROL         "",IDC_BORSHADE1,"BorShade",WS_GROUP | 0x8006,174,3,57,
+                    208
+    GROUPBOX        "По горизонтали",IDC_GROUPBOX4,11,165,152,42,WS_GROUP
+END
+
+IDD_PROPPAGE_PC DIALOG DISCARDABLE  0, 0, 220, 126
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Параметры"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_ED_RANG,45,19,41,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_PASS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,88,19,11,
+                    14
+    EDITTEXT        IDC_ED_NUMBER,117,19,41,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_PASS2,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,159,19,11,
+                    14
+    GROUPBOX        "Надежностные характеристики",IDC_STATIC,9,41,199,43
+    EDITTEXT        IDC_ED_L,26,59,44,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ED_M,90,59,44,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ED_D,156,59,44,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ED_NAME,10,102,199,14,ES_AUTOHSCROLL
+    LTEXT           "Ранг",IDC_STATIC,45,9,17,8
+    LTEXT           "Номер",IDC_STATIC,117,9,24,8
+    LTEXT           "L",IDC_STATIC,14,62,8,8
+    LTEXT           "M",IDC_STATIC,78,62,8,8
+    LTEXT           "D",IDC_STATIC,144,62,8,8
+    LTEXT           "Название устройства",IDC_STATIC,10,92,74,8
+END
+
+IDD_PROPPAGE_TXT DIALOGEX 0, 0, 220, 126
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Параметры"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_ED_TEXT,9,34,200,70,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN,WS_EX_DLGMODALFRAME
+    LTEXT           "Текст",IDC_STATIC,9,22,21,8
+    CONTROL         "Многострочный",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,140,12,69,10
+END
+
+IDD_PROPPAGE_LINE DIALOG DISCARDABLE  0, 0, 220, 127
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Линия"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO_PATTERN,18,32,82,96,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_WEIGHT,18,89,82,96,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CLR,120,61,82,96,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Тип",IDC_STATIC,18,21,14,8
+    LTEXT           "Толщина",IDC_STATIC,18,79,32,8
+    LTEXT           "Цвет",IDC_STATIC,119,51,18,8
+    PUSHBUTTON      ">>",IDC_BTN_CLREXT,97,61,20,12,BS_CENTER | BS_VCENTER
+END
+
+IDD_PROPPAGE_FILL DIALOG DISCARDABLE  0, 0, 220, 127
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Закраска"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO_PATTERN,18,32,82,96,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FONCLR,18,89,82,96,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CLR,120,61,82,96,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Текстура",IDC_STATIC,18,21,35,8
+    LTEXT           "Цвет фона",IDC_STATIC,18,79,41,8
+    LTEXT           "Цвет",IDC_STATIC,119,51,38,8
+    PUSHBUTTON      ">>",IDC_BTN_CLREXT,97,61,20,12,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "<<",IDC_BTN_CLREXTBK,103,89,20,12,BS_CENTER | 
+                    BS_VCENTER
+END
+
+IDD_DLG_BRIG DIALOGEX 0, 0, 186, 98
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Бригада"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Приоритетное",IDC_RAD_PRIOR,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,19,64,10
+    CONTROL         "Бесприоритетное",IDC_RAD_NOPRIOR,"Button",
+                    BS_AUTORADIOBUTTON,10,36,75,10
+    CONTROL         "С мечеными устройствами",IDC_RAD_LABELED,"Button",
+                    BS_AUTORADIOBUTTON,10,53,107,10
+    GROUPBOX        "Дисциплина обслуживания",IDC_STATIC,6,7,118,62,WS_GROUP
+    LTEXT           "Численность",IDC_STATIC,6,78,46,8
+    EDITTEXT        IDC_EDIT_NUMBER,54,76,40,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,96,75,11,
+                    14
+    DEFPUSHBUTTON   "OK",IDOK,130,22,50,29
+    PUSHBUTTON      "Cancel",IDCANCEL,130,61,50,14
+END
+
+IDD_DLG_SCALE DIALOGEX 0, 0, 205, 143
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Масштабировать"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Увеличить",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,42,16,52,10
+    CONTROL         "Уменьшить",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,42,35,
+                    55,10
+    LTEXT           "1",IDC_STATIC,15,60,8,8
+    EDITTEXT        IDC_EDIT1,50,54,40,12,ES_AUTOHSCROLL
+    LTEXT           "10",IDC_STATIC,116,60,10,8
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,9,73,123,19
+    GROUPBOX        "Масштаб",IDC_STATIC,7,5,130,93
+    CONTROL         "Собственный",IDC_RAD_SELF,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,13,112,61,10
+    CONTROL         "Выделения",IDC_RAD_GLOB,"Button",BS_AUTORADIOBUTTON,13,
+                    125,54,10
+    GROUPBOX        "Центр",IDC_STATIC,7,102,130,36,WS_GROUP
+    DEFPUSHBUTTON   "OK",IDOK,148,11,50,30
+    PUSHBUTTON      "Cancel",IDCANCEL,147,119,50,14
+END
+
+IDD_DIALOG_SCSUB DIALOGEX 0, 0, 160, 87
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Выделить подсхему"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_DP,11,23,61,54,LBS_SORT | LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,88,9,59,38
+    PUSHBUTTON      "Cancel",IDCANCEL,88,60,59,14
+    LTEXT           "Двухполюсники:",IDC_STATIC,12,3,57,8
+    LTEXT           "N",IDC_STATIC,14,14,8,8
+    LTEXT           "Вых. ранг",IDC_STATIC,28,14,41,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_ADD          CURSOR  DISCARDABLE     "res\\add.CUR"
+IDC_CURSOR_GLUMOV       CURSOR  DISCARDABLE     "res\\cursor_g.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROPPAGE_LINE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "AS"
+    IDR_DIPLOMTYPE          "AS\n\nASt\nФайлы надёжностных схем(*.as)\n.as\nAS.документ\nНадёжностная схема"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "AS"
+    AFX_IDS_IDLEMESSAGE     "Выход Alt+X"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Создаёт новую надёжностную схему"
+    ID_FILE_OPEN            "Открывает существующую схему"
+    ID_FILE_CLOSE           "Закрыть активный документ"
+    ID_FILE_SAVE            "Сохранить активный документ"
+    ID_FILE_SAVE_AS         "Сохранить активный документ под новым именем"
+    ID_FILE_PAGE_SETUP      "Настройка параметров страницы"
+    ID_FILE_PRINT_SETUP     "Настраивиет принтер"
+    ID_FILE_PRINT           "Печатать активный документ"
+    ID_FILE_PRINT_PREVIEW   "Предварительный просмотр\nПредварительный просмотр"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Информация о программе\nРеквизиты"
+    ID_APP_EXIT             "Завершает приложение\nВыход"
+    ID_CONTEXT_HELP         "Включает режим контекстной подсказки"
+    ID_DEFAULT_HELP         "Вывести оглавление системы помощи"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Список использованных документов"
+    ID_FILE_MRU_FILE2       "Открыть этот файл"
+    ID_FILE_MRU_FILE3       "Открыть этот файл"
+    ID_FILE_MRU_FILE4       "Открыть этот файл"
+    ID_FILE_MRU_FILE5       "Открыть этот файл"
+    ID_FILE_MRU_FILE6       "Открыть этот файл"
+    ID_FILE_MRU_FILE7       "Открыть этот файл"
+    ID_FILE_MRU_FILE8       "Открыть этот файл"
+    ID_FILE_MRU_FILE9       "Открыть этот файл"
+    ID_FILE_MRU_FILE10      "Открыть этот файл"
+    ID_FILE_MRU_FILE11      "Открыть этот файл"
+    ID_FILE_MRU_FILE12      "Открыть этот файл"
+    ID_FILE_MRU_FILE13      "Открыть этот файл"
+    ID_FILE_MRU_FILE14      "Открыть этот файл"
+    ID_FILE_MRU_FILE15      "Открыть этот файл"
+    ID_FILE_MRU_FILE16      "Открыть этот файл"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Упорядочить иконки\nУпорядочить"
+    ID_WINDOW_CASCADE       "Упорядочить окна каскадомi\nКаскад"
+    ID_WINDOW_TILE_HORZ     "Расположить дочерние окна горизонтально\nРасположить горизонтально"
+    ID_WINDOW_TILE_VERT     "Расположить дочерние окна вертикально\nРасположить вертикально"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Удалить первый выделенный объект"
+    ID_EDIT_CLEAR_ALL       "Удалить всё выделение"
+    ID_EDIT_COPY            "Копировать выделенные элементы в Clipboard\nКопировать"
+    ID_EDIT_CUT             "Вырезать выделенные элементы в Clipboard\nВырезать"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Вставить содержимое Clipboard\nВставить"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Выделить всю схему\nВыделить всё"
+    ID_EDIT_UNDO            "Отменить последнюю операцию\nОтмена"
+    ID_EDIT_REDO            "Повторить последнюю операцию\nПовторить"
+    57645                   "Выделить всю схему\nВыделить всё"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Показать или спрятать панель быстрого доступа"
+    ID_VIEW_STATUS_BAR      "Показать или скрыть строку статуса\nПереключение строки статуса"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Изменить размер окна"
+    AFX_IDS_SCMOVE          "Переместить окно"
+    AFX_IDS_SCMINIMIZE      "Минимизировать окно"
+    AFX_IDS_SCMAXIMIZE      "Максимизировать окно"
+    AFX_IDS_SCNEXTWINDOW    "Следующее окно"
+    AFX_IDS_SCPREVWINDOW    "Предварительный просмотр"
+    AFX_IDS_SCCLOSE         "Закрыть окно"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Восстановить окно"
+    AFX_IDS_SCTASKLIST      "Показать список задач"
+    AFX_IDS_MDICHILD        "Показать список окон"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Закрыть предварительный просмотр\nЗакрыть"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APPABOUT             "Информация о программе"
+    ID_FASTACCESS_SHOW      "Показать или скрыть панель быстрого доступа"
+    ID_TOOLALN_SHOW         "Показать или скрыть панель инструментов выравнивания"
+    ID_EDIT_DUP             "Дублировать выделенные элементы"
+    ID_EDIT_UNSELECTALL     "Снять выделение"
+    ID_EDIT_INV             "Инвертировать выделение"
+    ID_VIEW_PRIVSCALE       "Вернуть предидущий масштаб"
+    ID_VIEW_100             "Натуральная величина"
+    ID_VIEW_PAGEW           "Показать всю ширину листа"
+    ID_VIEW_PAGE            "Показать всю страницу"
+    ID_VIEW_200             "Масштаб с увеличением в два раза"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_50              "Масштаб с уменьшением в два раза"
+    ID_VIEW_LINE            "Показать/спрятать линейки"
+    ID_V                    "Сохранять настройки при выходе"
+    ID_VIEW_GRID            "Показать/спрятать сетку"
+    ID_VIEW_GUIDLINES       "Показать/спрятать направляющие"
+    ID_VIEW_CNCTPOINTS      "Показать/спрятать точки соединения"
+    ID_S                    "Показать/спрятать палитру управляющих элементов"
+    ID_BR_BRIG              "Показать/спрятать обслуживающие бригады"
+    ID_BR_ELEMENTS          "Показать/спрятать элементы"
+    ID_BR_SOLVE             "Расчёт надёжностных характеристик схемы"
+    ID_BR_STEPGRID          "Включить/выключить шаг по сетке"
+    ID_BR_STEPGUID          "Включить/выключить шаг по направляющим"
+    ID_W                    "Переключиться на предидущее дочернее окно"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ICM_ED_FONT             "Настройка шрифта"
+    ICM_ED_FNTCLR           "Цвет шрифта"
+    ICM_ED_ALIGN            "Выравнивание выделенных объектов"
+    ICM_ED_LIN              "Настройка линии"
+    ICM_ED_LINCLR           "Цвет линии"
+    ICM_ED_LINTHICK         "Толщина линии"
+    ICM_ED_LINTYP           "Тип линии"
+    ICM_ED_FIL              "Настройка закраски"
+    ICM_ED_FILCLR           "Цвет закраски"
+    ICM_ED_FILTYP           "Тип закраски"
+    ICM_ED_CALC             "Расчёт надёжностных характеристик схемы"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CBN_SCALE            "Установка масштаба отображения схемы"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_WINDOW           "Показать список открытых схем"
+    32805                   "Включить/выключить локальную панель быстрого доступа"
+    ID_VIEW_TEXTURE         "Включить/выключить текстуру локальных панелей быстрого доступа"
+    ID_VIEW_SAVEOPT         "Сохранять настройки при выходе"
+    ID_VIEV_SVEDESKTOP      "Сохранять рабочий стол при выходе"
+    ID_VIEW_SIMPLEVIEW      "Включает режим просмотра схемы"
+    ID_VIEW_ARROW           "Включает отображение направления связей"
+    ID_SC_ALIGMENT          "Выравнивание/распраделение выделенных объектов"
+    ID_SC_CENTER            "Центрирует схему относительно страницы"
+    ID_SC_BACK              "Помещает выделенные объекты на задний план"
+    ID_SC_FORWARD           "Помещает выделенные объекты вперёд"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LOC_ADD              "Создать новую бригаду\nСоздать"
+    ID_LOC_REM              "Удалить выделенную(е) бригаду(ы)\nУдалить"
+    ID_LOC_ED               "Отредактировать параметры выделенной бригады\nРедактировать"
+    ID_LOC_ACCEPT           "Назначить текущей бригаде устройства\nНазначить текущей бригаде устройства"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MODE_BRIG            "Включает режим редактирования списка бригад ремонтников\nРемонтники"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_BR_SERVIS            "Пометить выделенные(ое) устройсва(о) как обслуживаемые(ое)"
+    ID_BR_UNSERVIS          "Пометить выделенные(ое) устройсва(о) как не обслуживаемые(ое)"
+    ID_BR_LABEL             "Пометить выделенные(ое) устройсва(о) как меченые(ое)/высокоприоритетные(ое)"
+    ID_CLC_EQREST           "Расчёт эквивалентной интенсивности восстановления для помеченой бригады (бригаду надо отметить галкой)"
+    ID_ED_SELECTPC          "Выделяет все устройства"
+    ID_ED_SELECTCNCT        "Выделяет все связи"
+    ID_SC_FILL_LM           "Для каждого устройства присваивает остальным элементам ранга параметры первого"
+    ID_SC_CRERNG            "Автоматически назначает всем устройствам ранги и номера"
+    ID_EDIT_SCALE           "Масштабирует выделенные объекты"
+    ID_SC_ALNGUID           "Выравнивает выделенные объекты по выделенным направляющим"
+    ID_FILE_REVERT          "Восстанавливает из файла последний сохранённый вариант"
+    ID_ED_SELDBL            "Выделяет двухполюсник с минимальным выходным рангом по выделенному устройству"
+    ID_CLC_CONNECT          "Проверить связанность схемы"
+    ID_ED_UNHILITE          "Возвращает выделенные каким-либо алгоритмом элементы в исходное состояние"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CLC_CTYPE            "Показывает тип связи у выделенного элемента (требуется один выделенный элемент)"
+    ID_CLC_CINT             "Показывает пересечение путей топологически сложной связи используемое для её устранения (нужно выделить элемент)"
+    ID_ED_SELECT_HIGH       "Выделяет все подсвеченные объекты"
+    ID_CLC_NPATHS           "Для выделенной связи или точки соединения показывает число восходящих путей для отношения непосредственной достижимости"
+    ID_CLC_TSIMPL           "Сведение параллельной, последовательной или полнодоступной связи (по выделенному элементу)"
+    ID_CLC_RUN              "Запускает режим сворачивания всей схемы"
+    ICM_ED_SINGLESTEP       "Выполняет следующий шаг преобразования (F10)\nСледующий шаг"
+    ICM_ED_STEPMODE         "Шаговый режим преобразования (F5)\nШаговый режим"
+    ID_ED_SELECTPC_DP       "Выделяет все устройства двухполюсника с минимальным выходным рангом (по начальному устройству)"
+    ID_ED_SELECTPC_HIGH     "Выделяет все подсвеченные устройства"
+    ID_ED_SEL_CDP           "Выделяет все связи двухполюсника (по начальному устройству)"
+    ID_ED_SEL_HIGH          "Выделяет подсвеченные связи"
+    ID_ED_SEL_SUBSCH        "Выделяет требуемые двухполюсники"
+    ID_CLC_TSOFIST          "Сведение неопределённой связи или двух-входовой топологически сложной (по выделенному элементу)"
+    ID_E                    "По начальному устройству выделяет двухполюсник с максимальным выходным рангом"
+	ID_CTX_REPORT           "Вставить отчёт по выделенному устройству"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_EXPORT          "Экспорт"
+    ID_CLC_ARNG             "Анализ влияния надёжности рангов на надёжность схемы"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ICM_ED_STOP             "Прерывает текущий расчёт характеристик схемы (ESC)\nПрервать вычисление"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_DLGBARH DIALOG DISCARDABLE  0, 0, 307, 25
+STYLE DS_3DLOOK | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLG_DLGBARH, DIALOG
+    BEGIN
+        HORZGUIDE, 8
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\diplom.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

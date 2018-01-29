@@ -1,0 +1,5 @@
+#include "diplomDoc.h"
+
+
+
+

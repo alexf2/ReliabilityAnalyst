@@ -1,0 +1,660 @@
+# Microsoft Developer Studio Project File - Name="diplom" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Application" 0x0101
+
+CFG=diplom - Win32 Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "diplom.mak".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "diplom.mak" CFG="diplom - Win32 Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "diplom - Win32 Release" (based on "Win32 (x86) Application")
+!MESSAGE "diplom - Win32 Debug" (based on "Win32 (x86) Application")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+CPP=cl.exe
+MTL=midl.exe
+RSC=rc.exe
+
+!IF  "$(CFG)" == "diplom - Win32 Release"
+
+# PROP BASE Use_MFC 6
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "Release"
+# PROP BASE Intermediate_Dir "Release"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 6
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "Release"
+# PROP Intermediate_Dir "Release"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Yu"stdafx.h" /FD /c
+# ADD CPP /nologo /Zp1 /MD /W3 /GR /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /YX"stdafx.h" /FD /c
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD BASE RSC /l 0x419 /d "NDEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x419 /d "NDEBUG" /d "_AFXDLL"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /machine:I386
+# ADD LINK32 /nologo /subsystem:windows /machine:I386 /out:"exe/diplom.exe"
+
+!ELSEIF  "$(CFG)" == "diplom - Win32 Debug"
+
+# PROP BASE Use_MFC 6
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "Debug"
+# PROP BASE Intermediate_Dir "Debug"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 6
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "Debug"
+# PROP Intermediate_Dir "Debug"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Yu"stdafx.h" /FD /c
+# ADD CPP /nologo /Zp1 /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /YX /FD /c
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD BASE RSC /l 0x419 /d "_DEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x419 /d "_DEBUG" /d "_AFXDLL"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /debug /machine:I386 /pdbtype:sept
+# ADD LINK32 /nologo /subsystem:windows /debug /machine:I386 /out:"exe/diplom.exe" /pdbtype:sept
+
+!ENDIF 
+
+# Begin Target
+
+# Name "diplom - Win32 Release"
+# Name "diplom - Win32 Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Source File
+
+SOURCE=.\About.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\alndlg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Autorc.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\baseview.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\brigad.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ChildFrm.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\clip_sz.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\cre_rngs.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\cre_rngsxy.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\diplom.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\diplom.rc
+# End Source File
+# Begin Source File
+
+SOURCE=.\diplomDoc.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\diplomView.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\dlg_scale.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\dlg_sub.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Dlgprop.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\doc_analyze.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Drawobj.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Drawtool.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\drtool.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\getgdimgr.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Globlmsg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Halfdiv.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\indexeditem.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Listvwex.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\MainFrm.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\meq.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\opt.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Rlistvw.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\StdAfx.cpp
+# ADD CPP /Yc"stdafx.h"
+# End Source File
+# Begin Source File
+
+SOURCE=.\TBrigDlg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\toolparam.cpp
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\About.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\alndlg.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Autorc.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\basview.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\brigad.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ChildFrm.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\clip_sz.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\diplom.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\diplomDoc.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\diplomView.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\dlg_scale.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\dlg_sub.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Dlgprop.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\doc_analyze.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Drawobj.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Drawtool.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\drtool.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\en_prop.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\getgdimgr.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Globlmsg.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Halfdiv.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hint_typ.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\indexeditem.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Listvwex.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\lock_update.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\MainFrm.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\my_uniq.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\objtypes.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\opt.hpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Resource.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Rlistvw.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\StdAfx.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\TBrigDlg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\toolparam.hpp
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe"
+# Begin Source File
+
+SOURCE=.\res\About256.img
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Add.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\add.CUR
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bitmap1.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bitmap2.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Bkgnd_h.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_a1.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_a2.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_a3.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_a4_h.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_d1.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_d1_h.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_d1_v.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_d2.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_d2_h.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_d2_v.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_d3.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_d3_h.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_d3_v.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_ed_a.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_ed_f.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp_ed_l.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\br.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\btm_app.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Btn_remo.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bu.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Cancel.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\clear.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Close.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\copy.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\cursor_g.cur
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\diplom.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\diplom.rc2
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\diplomDoc.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\ecalc.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\eclr.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\efclr.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\efdown.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\efil.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\efont.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\eftyp.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\efup.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\elt.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\elthck.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Exit.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\hch.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Help.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Largeico.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\loc_acce.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\prop.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Save.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Smallico.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\snsl_1.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\snsl_2.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\snsl_3.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\snsl_4.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\snsl_cnc.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\snsl_pc.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\snsl_txt.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Stateico.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Update.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Wsm.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Wstep.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Yes.ico
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=.\diplom.reg
+# End Source File
+# Begin Source File
+
+SOURCE=.\ReadMe.txt
+# End Source File
+# End Target
+# End Project
+# Section diplom : {BEF6E003-A874-101A-8BBA-00AA00300CAB}
+# 	2:5:Class:COleFont
+# 	2:10:HeaderFile:font.h
+# 	2:8:ImplFile:font.cpp
+# End Section
+# Section diplom : {476024A1-BE62-11D0-833F-444553540000}
+# 	2:5:Class:CBar
+# 	2:10:HeaderFile:bar.h
+# 	2:8:ImplFile:bar.cpp
+# End Section
+# Section diplom : {7BF80981-BF32-101A-8BBB-00AA00300CAB}
+# 	2:5:Class:CPicture
+# 	2:10:HeaderFile:picture.h
+# 	2:8:ImplFile:picture.cpp
+# End Section
+# Section diplom : {0C73A147-0852-11D1-BC39-004095912184}
+# 	2:21:DefaultSinkHeaderFile:_zbarsw.h
+# 	2:16:DefaultSinkClass:C_ZBarSW
+# End Section
+# Section diplom : {476024A3-BE62-11D0-833F-444553540000}
+# 	2:21:DefaultSinkHeaderFile:bar.h
+# 	2:16:DefaultSinkClass:CBar
+# End Section
+# Section diplom : {0C73A146-0852-11D1-BC39-004095912184}
+# 	2:5:Class:C_ZBarSW
+# 	2:10:HeaderFile:_zbarsw.h
+# 	2:8:ImplFile:_zbarsw.cpp
+# End Section

@@ -8,5 +8,5 @@
 **UI**<br/>
 ![Screen](./DOC/interf.png "Screen")
 
-[Полная документация](./DOC/dpiplom.doc)<br/>
+>[Полная документация](./DOC/dpiplom.doc)<br/>
 [Исполняемые файлы Win32](https://github.com/alexf2/ReliabilityAnalyst/releases/download/Release1/Release1.zip)
